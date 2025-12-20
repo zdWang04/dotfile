@@ -1,7 +1,10 @@
-# window 配置
 [window]
 decorations = "Full"
 title = "Alacritty"
+dynamic_title = true
+
+[window.identity]
+class = { general = "Alacritty", instance = "Alacritty"}
 
 [colors.primary]
 background = '#f3f4f5'
@@ -43,4 +46,3 @@ size   = 16
 # 光标
 [cursor]
 style = {shape = "Underline", blinking = "Always"}
-
