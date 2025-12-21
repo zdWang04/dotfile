@@ -7,3 +7,4 @@ local opt = vim.opt
 opt.clipboard = "unnamedplus"
 opt.relativenumber = false
 opt.spell = false
+opt.spelllang = { "cjk", "en" }
