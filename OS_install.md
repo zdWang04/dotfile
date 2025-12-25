@@ -51,6 +51,7 @@
 
 
 ## 终端美化相关
+
 ```shell
   sudo apt install zsh # 安装 zsh 
   chsh -s $(which zsh) # 设置为默认shell, 需要重新登陆
